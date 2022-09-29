@@ -1,0 +1,18 @@
+{
+    "preview_image": {
+        "nrow": 8,
+        "ncol": 8,
+        "path": "./preview.eps"
+    },
+    "batch_size": 64,
+    "checkpoint_folder": "./checkpoints",
+    "device": "cuda",
+    "ngpu": 4,
+    "embedding_size": 512,
+    "feature_size": 128,
+    "learning_rate": 0.0002,
+    "betas": [0.5, 0.999],
+    "embedding_path": "./datasets/celeba/embeddings.json",
+    "image_dir": "./datasets/celeba/aligned",
+    "history_path": "./history.json"
+}
